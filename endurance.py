@@ -5,8 +5,6 @@ cons = input ("Consumo orario (galloni/h): ")
 cons = float (cons)
 if carb < 0:
 	print (" \n ERRORE! La quantita' di carburante non puo' essere negativa!")
-	if cons <= 0:
-		print (" \n ERRORE! Il consumo orario deve essere maggiore di 0!")
 elif cons <= 0:
 	print (" \n ERRORE! Il consumo orario deve essere maggiore di 0!")
 else:
